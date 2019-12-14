@@ -1,0 +1,221 @@
+html {
+  font-size: 62.5%;
+}
+
+.home {
+    margin: 0;
+}
+
+body {
+  color: #333;
+  font-family: "Dosis", sans-serif;
+}
+
+.header {
+    background-color: darkgreen;
+}
+
+nav {float: right;}
+
+ul {list-style-type:none;
+padding-top: 3rem;
+padding-right: 3rem;}
+
+li {float: left;
+margin-left: 2rem;}
+
+a {text-decoration: none;
+    color: white;
+    font-size: 120%;}
+
+.section-1 {
+    background-image:url("../img/banniere.jpg");
+    background-size: 100%;
+    min-height: 60rem;
+    text-align: center;}
+
+#rencontres {
+    padding-top: 20rem;
+    padding-bottom: 1rem;
+    font-size: 200%;
+    }
+
+#chaine_alimentaire {
+    padding-bottom: .5rem;
+    font-size: 350%;
+    text-transform: uppercase;}
+
+#question_equilibre {
+    padding-bottom: 5rem;
+    text-transform: uppercase;
+    color: greenyellow;
+    font-size: 280%;
+}
+
+#inscription {
+    text-transform: uppercase;
+    padding : 1rem;
+    color: white;
+    font-size: 150%;
+}
+
+.section-1 a {
+    background-color:darkgreen;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.section-2 {
+    min-height: 35rem;
+    text-align: center;  
+    padding: 0 50rem;
+    padding-bottom: 10rem;
+}
+
+.titre{
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+    text-transform: uppercase;
+    font-size: 300%;
+}
+
+.trait {border-top: 1px solid #000;
+        width: 20rem;
+        margin: auto;}
+
+
+
+#infos {
+    margin-top: 3rem;
+    font-size: 180%;
+    line-height: 3rem;
+}
+
+.section-3 {
+    min-height: 35rem;
+    background-image: url("../img/bandeau.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.section-4 {
+    min-height: 50rem;
+    text-align: center;  
+    padding-bottom: 10rem;
+    background-color: antiquewhite;
+}
+
+.section-4 a {
+    background-color:darkgreen;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+#inscription2 {
+    text-transform: uppercase;
+    padding : 1rem;
+    color: white;
+    font-size: 150%;
+    
+}
+
+#programme {
+    justify-content: center;
+    display: flex;
+     padding: 5rem 40rem;
+}
+
+#liste1 {
+    justify-content: center;
+    width: 50%;
+    float: left;
+    font-size: 180%;
+}
+
+#liste2 {
+width: 50%;
+float: right;
+    font-size: 180%;
+}
+
+.section-5 {
+    min-height: 50rem;
+    text-align: center;  
+    padding-bottom: 10rem;
+    background-color: white;
+}
+
+#opera_txt {
+    padding-top: 5rem;
+    font-size: 300%;
+}
+
+.photos_operateurs{display: flex;
+justify-content: center;}
+
+#photo_1 {
+    background-image: url(../img/portrait.jpg);
+    overflow: hidden;
+    -webkit-border-radius:80px;
+     -moz-border-radius:80px;
+    border-radius: 80px;
+    width: 140px;
+    height: 140px;
+    margin: 5rem;
+         
+}
+
+
+#photo_2 {
+    background-image: url(../img/portrait.jpg);
+    overflow: hidden;
+    -webkit-border-radius:80px;
+     -moz-border-radius:80px;
+    border-radius: 80px;
+    width: 140px;
+    height: 140px;
+    margin: 5rem;
+         
+}
+
+#photo_3 {
+    background-image: url(../img/portrait.jpg);
+    overflow: hidden;
+    -webkit-border-radius:80px;
+     -moz-border-radius:80px;
+    border-radius: 80px;
+    width: 140px;
+    height: 140px;
+    margin: 5rem;     
+}
+
+#photo_4 {
+    background-image: url(../img/portrait.jpg);
+    overflow: hidden;
+    -webkit-border-radius:80px;
+     -moz-border-radius:80px;
+    border-radius: 80px;
+    width: 140px;
+    height: 140px;
+    margin: 5rem;     
+}
+
+.nom_1 {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    font-size: 200%;}
+
+.section-6 {
+    min-height: 80rem;
+    text-align: center;  
+    padding-bottom: 10rem;
+}
+
+#zone_texte {
+    background-color: green;
+}
+#image_droite {
+    background-image: url(../img/lieu.png);
+}
+    
+
