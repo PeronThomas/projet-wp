@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 
 <div class="container">
-    <h1>404 </h1>
+    <h1> error 404 </h1>
+    <p id="404"></p>
 <?php
 if ( have_posts() ) {
   while ( have_posts() ) {

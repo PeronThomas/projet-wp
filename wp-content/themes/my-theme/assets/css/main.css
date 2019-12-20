@@ -30,6 +30,7 @@ a {text-decoration: none;
 
 .section-1 {
     background-image:url("../img/banniere.jpg");
+    background-repeat: no-repeat;
     background-size: 100%;
     min-height: 60rem;
     text-align: center;}
@@ -126,7 +127,7 @@ a {text-decoration: none;
 }
 
 #liste1 {
-    justify-content: center;
+   
     width: 50%;
     float: left;
     font-size: 180%;
@@ -211,11 +212,52 @@ justify-content: center;}
     padding-bottom: 10rem;
 }
 
+.contenu_6 {
+    margin-top: 10rem;
+    min-height: 50rem;
+    display: flex;
+}
 #zone_texte {
+    width: 50%;
     background-color: green;
 }
 #image_droite {
+    width: 100%;
+    min-height: 60rem;
     background-image: url(../img/lieu.png);
+    background-repeat: no-repeat;
+}
+
+#lieu p {
+    color: white;
+    font-size: 150%;}
+
+#lieu img {
+    color: white;
+}
+
+.section-7 {
+    min-height: 80rem;
+    text-align: center;  
+    padding-bottom: 10rem;
 }
     
+.section-8 {
+    min-height: 80rem;
+    text-align: center;  
+    background-color: darkgrey;
+    padding-bottom: 10rem;
+}
 
+.footer {
+    background-color: black;
+    min-height: 5rem;
+    position: sticky bottom 0px;}
+
+.footer p {
+    color: white;
+    font-size: 8rem;
+    text-align: center;
+    }
+
+#id {font-size: 6rem;}

@@ -5,6 +5,7 @@
 <?php
 if ( have_posts() ) {
   while ( have_posts() ) {
+      
     /**
      * La méthode the_post() permet de charger le post courant
      * Un post est un type de contenu, par exemple une actualité ou une page
@@ -23,5 +24,6 @@ if ( have_posts() ) {
     
 }
 ?>
+    
 </div>
 <?php get_footer(); ?>
